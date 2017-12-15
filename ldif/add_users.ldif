@@ -1,0 +1,40 @@
+version: 1
+
+# Entry 1: ou=users,dc=example,dc=org
+dn: ou=users,dc=example,dc=org
+objectclass: organizationalUnit
+objectclass: top
+ou: users
+
+# Entry 2: cn=Fred Flintstone,ou=users,dc=example,dc=org
+dn: cn=Fred Flintstone,ou=users,dc=example,dc=org
+cn: Fred Flintstone
+givenname: Fred
+objectclass: inetOrgPerson
+objectclass: top
+sn: Flintstone
+uid: fflintstone
+mail: fred.flintstone@shibb.idp
+userpassword: changeme
+
+# Entry 3: cn=Wilma Flintstone,ou=users,dc=example,dc=org
+dn: cn=Wilma Flintstone,ou=users,dc=example,dc=org
+cn: Wilma Flintstone
+givenname: Wilma
+objectclass: inetOrgPerson
+objectclass: top
+sn: Flintstone
+uid: wflintstone
+mail: wilma.flintstone@shibb.idp
+userpassword: changeme
+
+# Entry 4: cn=Dino Flintstone,ou=users,dc=example,dc=org
+dn: cn=Dino Flintstone,ou=users,dc=example,dc=org
+cn: Dino Flintstone
+givenname: Dino
+objectclass: inetOrgPerson
+objectclass: top
+sn: Flintstone
+uid: dflintstone
+mail: dino.flintstone@shibb.idp
+userpassword: changeme

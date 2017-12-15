@@ -1,0 +1,8 @@
+.dockerignore
+.gitignore
+.git
+bin
+idp-templates
+ldif
+samly_ldap_dv
+*.xml
