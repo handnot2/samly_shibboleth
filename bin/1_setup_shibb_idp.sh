@@ -43,7 +43,7 @@ openssl pkcs12 -export \
 
 
 IDP_ENTITYID=`grep idp.entityID ${DEST}/conf/idp.properties`
-SP_ENTITYID="sp.entityID=https://samly.howto:4443/sso/sp/metadata/idp1"
+SP_ENTITYID="sp.entityID=urn:samly.howto:samly_sp"
 STORE_PW=`grep idp.sealer.storePassword ${DEST}/conf/idp.properties`
 KEY_PW=`grep idp.sealer.keyPassword ${DEST}/conf/idp.properties`
 FC_PW="jetty.sslContext.keyStorePassword=${FC_PASSWORD}"
